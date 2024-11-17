@@ -1,0 +1,62 @@
+/* Stayling Box */
+body {
+    font-family: Arial, sans-serif;
+    margin: 50;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+.browser-bar {
+    display: flex;
+    align-items: center;
+    background-color: #e0e0e0;
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+}
+.browser-bar button {
+    background-color: #ccc;
+    border: none;
+    padding: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.browser-bar input {
+    flex-grow: 1;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+.row {
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.box {
+    border: 1px solid #000;
+    margin: 5px;
+}
+.box1 {
+    background-color: #a8d08d;
+    height: 200px;
+    flex-grow: 1;
+}
+.box2 {
+    background-color: #f4863c;
+    height: 200px;
+    flex-grow: 1;
+}
+.box3 {
+    background-color: #f1eea2;
+    height: 200px;
+    width: 200px;
+}
+.box4 {
+    background-color: #d0e6fa;
+    height: 200px;
+    flex-grow: 1;
+}
